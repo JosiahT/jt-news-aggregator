@@ -8,7 +8,7 @@ public class NewsResponse
     public string? Title { get; set; }
     public string? Synopsis { get; set; }
     public string? Link { get; set; }
-    public NewsDetail? Detail {get; set;}
+    public NewsDetail? Detail { get; set; }
     public string? Thumbnail { get; set; }
     public IEnumerable<string>? Tags { get; set; }
     public string Category { get; set; }
